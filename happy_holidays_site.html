@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Holidays - Travel & Group Tours</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1603546781460-6e8e2f1f6b09?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #004aad;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #004aad;
+      margin-bottom: 20px;
+    }
+    .services, .fleet-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      padding: 12px 25px;
+      background-color: #004aad;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    footer {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .floating-btns {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .floating-btns a {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Holidays</h1>
+    <p>Group Tours | Char Dham Yatra | Corporate & School Trips</p>
+  </header>
+  
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#fleet">Our Buses</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Group Tour Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=500&q=60" alt="Char Dham">
+        <h3>Char Dham Yatra</h3>
+        <p>Pilgrimage tours with comfort and care.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=500&q=60" alt="Uttarakhand">
+        <h3>Uttarakhand Tours</h3>
+        <p>Nature, adventure, and spiritual journeys.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1554774853-7b6ccfefea8b?auto=format&fit=crop&w=500&q=60" alt="Corporate Tours">
+        <h3>Corporate Tours</h3>
+        <p>Custom group travel for teams and events.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1530543787849-128d94430c6b?auto=format&fit=crop&w=500&q=60" alt="School Tours">
+        <h3>School & College Trips</h3>
+        <p>Safe, planned educational and fun journeys.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="fleet">
+    <h2>Our Buses</h2>
+    <div class="fleet-gallery">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=500&q=60" alt="Bus 1">
+        <p>Luxury AC Bus – 45 Seater</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1532919285843-3b6c3a5bc80c?auto=format&fit=crop&w=500&q=60" alt="Bus 2">
+        <p>Semi-Sleeper Coach – 35 Seater</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1551747297-fa72f83eedd7?auto=format&fit=crop&w=500&q=60" alt="Bus 3">
+        <p>Mini Bus – 18 to 25 Seater</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Happy Holidays, we bring over a decade of experience in organizing memorable journeys across North India. Whether it's the holy Char Dham Yatra, corporate outings, or educational tours, we ensure a seamless travel experience with our reliable fleet and expert planning.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Bookings</h2>
+    <p><strong>Phone/WhatsApp:</strong> <a href="https://wa.me/918077094949">+91 8077094949</a><br>
+    <strong>Email:</strong> <a href="mailto:travelhappyholidays2@gmail.com">travelhappyholidays2@gmail.com</a></p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <div class="floating-btns">
+    <a href="https://wa.me/918077094949">📲 WhatsApp Us</a>
+    <a href="tel:+918077094949" style="background-color:#007bff;">📞 Call Now</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Happy Holidays. All rights reserved.</p>
+  </footer>
+</body>
+</html>
